@@ -1,91 +1,140 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel ="stylesheet" href="./bootstrap/bootstrap.min.css">
-    <link rel ="stylesheet" href="styles.css">
-    <link rel ="stylesheet" href="./font-awesome-4.5.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="./font-awesome-4.5.0/css/font-awesome.min.css">
 
     <title>Productly</title>
 </head>
+
 <body>
-   <!-- beginning of section  -->
-   <nav class="navbar navbar-expand-lg fixed-top navbar-light bg-light">
-    <div class="container">
-      <a class="navbar-brand" href="#"><img src="./Images/logo.svg"></a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav">
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Products</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Features</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Pricing</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link disabled">Disabled</a>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </nav>
-  
-
-  <!-- start of row 1  -->
-
-    <div class="container" id="shift">
-        <div class="row">
-            <div class="col-md-6 col-sm-12">
-                 <h1>The Design Thinking <br>Superpowers</h1>
-                 <p class="mt-5">
-                    Tools tutorials, design and innovation experts, all
-in one place! The most intuitive way to imagine
-your next user experience.
-                 </p>
-                 <button class="btn btn-primary btn-lg p-2">Get Started</button>
-                 <a href="" class="ms-4"><i class="fa fa-play"></i>
-                   <!-- Button trigger modal -->
-<a href="" type="" data-bs-toggle="modal" data-bs-target="#exampleModal">
-    Watch the Video
-</a>
-  
-  <!-- Modal -->
-  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-    <div class="modal-dialog">
-      <div class="modal-content">
-        <iframe width="560" height="315" class="frame"src="https://www.youtube.com/embed/jTEsoFlO5cw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-       
-        <div class="modal-footer">
-          
+    <!-- beginning of navbar  -->
+    <nav class="navbar navbar-expand-lg fixed-top navbar-light bg-warning">
+        <div class="container">
+            <a class="navbar-brand" href="#"><img src="./Images/logo.svg"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Products</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">Customers</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">Pricing</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active">Resources</a>
+                    </li>
+                </ul>
+            </div>
+            <button class="btn btn-outline-primary text-primary me-2 bg-light" type="submit">Sign in</button>
+            <button class="btn btn-danger btn-lg text-light" type="submit">Sign up</button>
         </div>
-      </div>
-    </div>
-  </div> 
+    </nav>
+    <!-- end of navbar -->
 
 
-</a>
-                
+    <!-- start of section 1  -->
+
+    <section class="container" id="shift">
+        <div class="row align-items-center">
+            <div class="col-md-6 col-sm-12 text-md-start text-center py-6">
+                <h1 style="font-size: 50px; font-weight: 700; margin-top: 20px;">The Design Thinking <br>Superpowers
+                </h1>
+                <!-- <p class="mt-5" style=" font-size: 20px;font-weight: 400;">
+                    Tools tutorials, design and innovation experts, all<br>
+                    in one place! The most intuitive way to imagine<br>
+                    your next user experience.
+                </p> -->
+                <p class="mb-6 lead text-dark">Tools tutorials, design and innovation experts, all<br
+                        class="d-none d-xl-block">in one place! The most intuitive way to imagine<br
+                        class="d-none d-xl-block">your next user experience.</p>
+
+                <div class="text-center text-md-start">
+                <a class="btn btn-warning  btn-lg" href="https://" role="button">Get started</a>
+                <a href="" class="btn btn-link text-warning fw-medium "><i class="fa fa-play"></i>
+                    <!-- Button trigger modal -->
+                    <a class="text-warning" href="" type="" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                        Watch the Video
+                    </a>
+                </div>
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <iframe width="560" height="315" class="frame"
+                                    src="https://www.youtube.com/embed/jTEsoFlO5cw" title="YouTube video player"
+                                    frameborder="0"
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                    allowfullscreen></iframe>
+
+                                <div class="modal-footer">
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </a>
+
             </div>
             <div class="col-md-6 col-sm-12 ">
                 <div>
                     <img src="./Images/hero-img.png" class="img-fluid">
                 </div>
 
+            </div>
+
         </div>
+    </section>    
+    <!-- end of section 1 -->
 
-    </div>
-  <!-- end of row 1 -->
- 
+    <!-- start of section 2 -->
+        <section class="pt-5 pt-md-9 mb-6" id="feature">
+            <!-- <div class="bg-holder z-index--1 bottom-0 d-none d-lg-block" style="background-image:url(assets/img/category/shape.png);opacity:.5;"></div> -->
+            <!--/.bg-holder-->
+            <div class="container">
+              <h1 class="fs-9 fw-bold mb-4 text-center"> We design tools to unveil <br class="d-none d-xl-block">your superpowers</h1>
+              <div class="row">
+                <div class="col-lg-3 col-sm-6 mb-2"> <img class="mb-3 ms-n3" src="./Images/icon1.png" width="75" alt="Feature">
+                  <h4 class="mb-3">First click tests</h4>
+                  <p class="mb-0 fw-medium text-secondary">While most people enjoy casino gambling,</p>
+                </div>
+                <div class="col-lg-3 col-sm-6 mb-2"> <img class="mb-3 ms-n3" src="./Images/icon2.png" width="75" alt="Feature">
+                  <h4 class="mb-3">Design surveys</h4>
+                  <p class="mb-0 fw-medium text-secondary">Sports betting,lottery and bingo playing for the fun</p>
+                </div>
+                <div class="col-lg-3 col-sm-6 mb-2"> <img class="mb-3 ms-n3" src="./Images/icon3.png" width="75" alt="Feature">
+                  <h4 class="mb-3">Preference tests</h4>
+                  <p class="mb-0 fw-medium text-secondary">The Myspace page defines the individual.</p>
+                </div>
+                <div class="col-lg-3 col-sm-6 mb-2"> <img class="mb-3 ms-n3" src="./Images/icon4.png" width="75" alt="Feature">
+                  <h4 class="mb-3">Five second tests</h4>
+                  <p class="mb-0 fw-medium text-secondary">Personal choices and the overall personality of the person.</p>
+                </div>
+              </div>
+              <div class="text-center"><a class="btn btn-warning" href="https://technext.github.io/productly/v1.0.0/#!" role="button">SIGN UP NOW</a></div>
+            </div>
+          </section>
+          <!-- end of section 2-->
 
 
 
-   <script src="./bootstrap/bootstrap.min.js"></script>
-</body> 
+
+        <script src="./bootstrap/bootstrap.min.js"></script>
+</body>
+
 </html>
